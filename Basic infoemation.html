@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Information</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="assets/css/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.6.0-web/css/all.min.css">
+</head>
+<body class="bg-light">
+
+<div class="container py-4">
+
+  <!-- Header -->
+  <div class="d-flex align-items-center mb-4 mx-4">
+    <a href="mypro.html" class="me-3 text-dark text-decoration-none">
+      <i class="fa-solid fa-arrow-left"></i>
+    </a>
+    <h5 class="mb-0 flex-grow-2">Basic Information</h5>
+  </div>
+
+  <!-- Stepper -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-8">
+      <div class="d-flex align-items-center justify-content-between">
+        <div class="text-center">
+          <div class="rounded-circle bg-success text-white d-flex justify-content-center align-items-center mx-auto" style="width: 30px; height: 30px;">1</div>
+          <small class="d-block mt-1">Basic<br>Information</small>
+        </div>
+        <div class="flex-grow-1 border-top mx-2" style="height:3px;"></div>
+        <div class="text-center">
+          <div class="rounded-circle border border-secondary text-secondary d-flex justify-content-center align-items-center mx-auto" style="width: 30px; height: 30px;">2</div>
+          <small class="d-block mt-1">Extra<br>Information</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Info box -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-8">
+      <div class="border rounded py-2 text-center text-danger bg-light">
+        <strong>Your Information is processed automarically by system and safely protect by okash</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form -->
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <form>
+
+        <div class="mb-3">
+          <label class="form-label">First Name</label>
+          <input type="text" class="form-control" placeholder="First Name">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Middle Name (optional)</label>
+          <input type="text" class="form-control" placeholder="Optional">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Last Name</label>
+          <input type="text" class="form-control" placeholder="Last Name">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label d-flex justify-content-between">BVN
+          <small class="text-muted">Don't know your BVN? <a href="#" class="text-success">Dial *565*0#</a></small>
+        </label>
+          <input type="text" class="form-control" placeholder="BVN">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Gender</label>
+          <div class="btn-group w-100" role="group">
+            <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" checked>
+            <label class="btn btn-outline-success w-50" for="male">Male</label>
+
+            <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off">
+            <label class="btn btn-outline-success w-50" for="female">Female</label>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Date of Birth</label>
+          <input type="date" class="form-control">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Residential Address</label>
+          <input type="text" class="form-control" placeholder="Enter Address">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Detailed Residential Address</label>
+          <input type="text" class="form-control" placeholder="Enter Detailed Address">
+        </div>
+
+        <div class="d-grid">
+          <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

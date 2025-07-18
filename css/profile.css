@@ -1,0 +1,82 @@
+ body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      height: 100px;
+    }
+
+    .icon-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      margin-bottom: 0.5rem;
+    }
+
+    .list-group-item {
+      border: none;
+      border-bottom: 1px solid #eee;
+      padding: 0.75rem 1rem;
+    }
+
+    .icon-text {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1rem;
+    }
+
+    .arrow {
+      color: #ccc;
+      font-weight: bold;
+    }
+
+    .ack {
+      border-radius: 0 0 50px 70px;
+    }
+
+    .profile-section {
+      transform: translateY(-30px);
+      border-radius: 15px;
+      padding: 1rem 0;
+    }
+
+    .bottom-nav .col {
+      padding: 0.5rem 0;
+    }
+
+    .bottom-nav a {
+      color: #495057;
+      text-decoration: none;
+    }
+
+    .bottom-nav i {
+      font-size: 1.2rem;
+    }
+
+    .bottom-nav p {
+      margin-bottom: 0;
+      font-size: 0.85rem;
+    }
+
+    .active-nav {
+      color: #198754 !important;
+      font-weight: 600;
+      width: 100px;
+    }
+    html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Sticky bottom nav */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  z-index: 1030;
+}

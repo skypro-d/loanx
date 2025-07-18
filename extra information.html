@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="assets/css/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.6.0-web/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/extrainfo.css">
+  <title>Extra Information Form</title>
+</head>
+<body>
+<div class="container py-4 w-100 justify-content-center  bg-light">
+    <div class="row">
+      <div class="d-flex align-items-center mb-4">
+        <a href="mypro.html" class="me-3 text-dark text-decoration-none">
+          <i class="fa-solid fa-arrow-left"></i>
+        </a>
+        <h5 class="mb-0 flex-grow-1">Manage Bank Account</h5>
+      </div>
+        <div class="col-12 ">
+            <div class="col-12 ">
+                <div class="steps d-flex justify-content-between align-items-between">
+                    <div class="step active1">
+                        <div class="circle active bg-success"></div>
+                        Basic<br>information
+                    </div>
+                    <div class="line bg-success mt-4 w-50" style="height: 5px;"></div>
+                    <div class="step">
+                        <div class="step1">
+                            <div class="circle inactive"></div>
+                            Extra<br>information
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <h3 class="mb-4">Extra Information</h3>
+  <form>
+    <div class="mb-3">
+      <label for="education" class="form-label">Education</label>
+      <select class="form-select" id="education">
+        <option selected>Undergraduate and above</option>
+        <option>Secondary school</option>
+        <option>Primary school</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="maritalStatus" class="form-label">Marital Status</label>
+      <select class="form-select" id="maritalStatus">
+        <option selected>Single</option>
+        <option>Married</option>
+        <option>Divorced</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="monthlyIncome" class="form-label">Monthly Income</label>
+      <select class="form-select" id="monthlyIncome">
+        <option selected>25,001 - 50,000</option>
+        <option>50,001 - 100,000</option>
+        <option>100,001 - 200,000</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" value="">
+    </div>
+
+    <h5 class="mt-4">Relationship Contact</h5>
+
+    <div class="mb-3">
+      <label for="relationship" class="form-label">Relationship</label>
+      <select class="form-select" id="relationship">
+        <option selected>Colleague</option>
+        <option>Family</option>
+        <option>Friend</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="fullName" class="form-label">Full Name</label>
+      <input type="text" class="form-control" id="fullName" value="">
+    </div>
+    <div class="mb-3">
+        <label for="phone number" class="form-label">phone number</label>
+        <input type="number" class="form-control"  value="">
+      </div>
+  
+
+    <button type="submit" class="btn btn-success w-100">Submit</button>
+  </form>
+
+        </div>
+
+    </div>
+  
+</div>
+
+
+</body>
+</html>

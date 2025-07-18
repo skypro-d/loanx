@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Okash - PIN Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.6.0-web/css/all.min.css">
+   <script src="assets/js/core/jquary.js"></script>
+  <script src="assets/js/pin.js"></script>
+  
+</head>
+
+<body class="bg-light">
+
+<form id="pinForm">
+  <div class="container py-4">
+
+    <div class="d-flex align-items-center mb-3">
+      <a href="login.html" class="me-3 text-dark text-decoration-none fs-4">
+        <i class="fa-solid fa-arrow-left"></i>
+      </a>
+      <h5 class="mb-0">iloan</h5>
+    </div>
+
+    <div class="card shadow rounded-3">
+      <div class="card-body p-4">
+
+        <h2 class="text-dark text-center fw-bold mb-2">Welcome to iloan</h2>
+        <p class="text-success text-center mb-4">+2347081306993</p>
+
+        <div class="mb-3">
+          <label for="pin" class="form-label">Please input your 4-digit password</label>
+          <input type="password" id="pin" class="form-control bg-light" placeholder="Enter 4-digit PIN">
+        </div>
+
+        <div id="pinFeedback" class="form-text mb-3"></div>
+
+        <div class="text-end mb-3">
+          <a href="#" class="text-success text-decoration-none">Forgot password?</a>
+        </div>
+         <div id="customAlert" class="alert alert-success d-none mt-3" role="alert"></div>
+
+
+        <button type="submit" class="btn btn-success w-100">Login</button>
+
+      </div>
+    </div>
+
+  </div>
+</form>
+</body>
+</html>
